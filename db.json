@@ -52,21 +52,38 @@
       "id": 3
     },
     {
-      "token": "0-44f70604-219f-4dc5-842e-adc04f2f2f25",
-      "email": "evan2@mail.com",
+      "token": "0-573deb2c-86e6-4524-b562-991a9c1d8fb0",
+      "email": "test@mail.com",
       "password": "123123123",
-      "name": "evann",
-      "phoneNumber": "081232131231",
+      "name": "test",
+      "phoneNumber": "081231231231",
+      "photo": "https://res.cloudinary.com/dzzxtxrfd/image/upload/v1702065737/2606517_5856_jmj66c.jpg",
+      "balance": 387000,
+      "refCode": "iGpoWV",
+      "refCodeFriend": "",
+      "countRefCode": 1,
+      "completedShipments": 0,
+      "totalSpent": 0,
+      "createdAt": "2023-12-21T16:32:32.033Z",
+      "updatedAt": "2023-12-21T16:37:05.890Z",
+      "id": 4
+    },
+    {
+      "token": "0-0f3adfad-1365-4ef5-9496-bbcacd7a1ab7",
+      "email": "new@mail.com",
+      "password": "123123123",
+      "name": "eeee",
+      "phoneNumber": "08123123123",
       "photo": "https://res.cloudinary.com/dzzxtxrfd/image/upload/v1702065737/2606517_5856_jmj66c.jpg",
       "balance": 0,
-      "refCode": "yHWQt1",
-      "refCodeFriend": "Kzznk3",
+      "refCode": "SyxiHb",
+      "refCodeFriend": "iGpoWV",
       "countRefCode": 0,
       "completedShipments": 0,
       "totalSpent": 0,
-      "createdAt": "2023-12-11T07:39:38.622Z",
-      "updatedAt": "2023-12-11T07:39:38.622Z",
-      "id": 4
+      "createdAt": "2023-12-21T16:37:05.889Z",
+      "updatedAt": "2023-12-21T16:37:05.889Z",
+      "id": 5
     }
   ],
   "admin": [
@@ -77,9 +94,9 @@
       "password": "123123123",
       "name": "MyAdmin",
       "phoneNumber": "08123456789",
-      "photo": "http://res.cloudinary.com/dzzxtxrfd/image/upload/v1702997123/iyfvuftqucyrrhmrapfq.jpg",
+      "photo": "http://res.cloudinary.com/dzzxtxrfd/image/upload/v1703176739/shnay3h2xnqs0ib1tvt7.jpg",
       "createdAt": "2023-12-04T08:35:32.000Z",
-      "updatedAt": "2023-12-19T14:45:26.286Z"
+      "updatedAt": "2023-12-21T16:39:01.439Z"
     }
   ],
   "promo": [
@@ -322,6 +339,35 @@
           "createdAt": "2023-12-18T07:10:11.801Z"
         }
       ]
+    },
+    {
+      "userId": 4,
+      "addresses": [
+        {
+          "city": "Indragiri Hulu",
+          "province": "Riau",
+          "street": "213312",
+          "receiverName": "rewrwr",
+          "receiverPhone": "081231233123",
+          "updatedAt": "2023-12-21T16:33:39.411Z",
+          "createdAt": "2023-12-21T16:33:39.411Z"
+        },
+        {
+          "city": "Kaur",
+          "province": "Bengkulu",
+          "street": "testette",
+          "receiverName": "testste",
+          "receiverPhone": "081231231312",
+          "updatedAt": "2023-12-21T16:34:12.777Z",
+          "createdAt": "2023-12-21T16:34:12.777Z"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "userId": 5,
+      "addresses": [],
+      "id": 5
     }
   ],
   "origin": [
@@ -339,9 +385,9 @@
       "branchName": "Bandung Branch",
       "city": "Bandung",
       "province": "Jawa Barat",
-      "street": "Jl. Ini Nama Jalan Bandung Origin",
+      "street": "Jl. Ini Nama Jalan Bandung Origin edit",
       "createdAt": "2023-12-04T08:35:32.000Z",
-      "updatedAt": "2023-12-04T08:35:32.000Z"
+      "updatedAt": "2023-12-21T16:39:58.978Z"
     },
     {
       "id": 3,
@@ -546,7 +592,7 @@
             "city": "Jakarta Pusat",
             "province": "DKI Jakarta",
             "street": "Jl. Ini Nama Jalan Jakarta Origin",
-            "createdAt": "2023-12-04T08:35:32.000Z",
+            "createdAt": "2023-11-04T08:35:32.000Z",
             "updatedAt": "2023-12-04T08:35:32.000Z"
           },
           "destinationAddress": {
@@ -567,7 +613,7 @@
           "status": "ON SHIPPING",
           "review": "",
           "updatedAt": "2023-12-16T09:23:43.812Z",
-          "createdAt": "2023-12-16T09:23:43.812Z"
+          "createdAt": "2023-10-16T09:23:43.812Z"
         },
         {
           "length": 10,
@@ -601,7 +647,7 @@
           "status": "ON SHIPPING",
           "review": "",
           "updatedAt": "2023-12-19T17:22:52.285Z",
-          "createdAt": "2023-12-16T10:00:24.544Z"
+          "createdAt": "2023-10-16T10:00:24.544Z"
         },
         {
           "length": 10,
@@ -635,7 +681,7 @@
           "status": "PAID",
           "review": "",
           "updatedAt": "2023-12-16T10:08:44.326Z",
-          "createdAt": "2023-12-16T10:08:44.326Z"
+          "createdAt": "2023-10-16T10:08:44.326Z"
         },
         {
           "length": 10,
@@ -669,7 +715,7 @@
           "status": "ON SHIPPING",
           "review": "",
           "updatedAt": "2023-12-19T17:33:40.722Z",
-          "createdAt": "2023-12-16T10:13:44.753Z"
+          "createdAt": "2023-03-16T10:13:44.753Z"
         },
         {
           "length": 10,
@@ -703,7 +749,7 @@
           "status": "ON SHIPPING",
           "review": "",
           "updatedAt": "2023-12-19T17:24:04.349Z",
-          "createdAt": "2023-12-16T10:13:53.980Z"
+          "createdAt": "2023-03-16T10:13:53.980Z"
         },
         {
           "length": 10,
@@ -737,7 +783,7 @@
           "status": "DELIVERED",
           "review": "3",
           "updatedAt": "2023-12-19T17:35:15.099Z",
-          "createdAt": "2023-12-16T10:14:02.665Z"
+          "createdAt": "2023-03-16T10:14:02.665Z"
         },
         {
           "length": 10,
@@ -771,7 +817,7 @@
           "status": "DELIVERED",
           "review": "5",
           "updatedAt": "2023-12-16T16:22:14.262Z",
-          "createdAt": "2023-12-16T10:14:15.643Z"
+          "createdAt": "2023-03-16T10:14:15.643Z"
         },
         {
           "length": 10,
@@ -839,7 +885,7 @@
           "status": "PAID",
           "review": "",
           "updatedAt": "2023-12-16T10:17:15.535Z",
-          "createdAt": "2023-12-16T10:17:15.535Z"
+          "createdAt": "2023-11-16T10:17:15.535Z"
         },
         {
           "length": 10,
@@ -907,7 +953,7 @@
           "status": "DELIVERED",
           "review": "",
           "updatedAt": "2023-12-18T03:05:22.458Z",
-          "createdAt": "2023-12-16T17:57:06.981Z"
+          "createdAt": "2023-11-16T17:57:06.981Z"
         },
         {
           "length": 10,
@@ -1163,7 +1209,7 @@
           "status": "PAID",
           "review": "",
           "updatedAt": "2023-12-17T11:19:42.064Z",
-          "createdAt": "2023-12-17T11:19:42.064Z"
+          "createdAt": "2022-12-17T11:19:42.064Z"
         },
         {
           "length": 10,
@@ -1249,7 +1295,7 @@
           "status": "PAID",
           "review": "",
           "updatedAt": "2023-12-17T11:58:00.722Z",
-          "createdAt": "2023-12-17T11:58:00.722Z"
+          "createdAt": "2022-12-17T11:58:00.722Z"
         },
         {
           "length": 29,
@@ -1578,6 +1624,94 @@
           "createdAt": "2023-12-20T03:12:15.748Z"
         }
       ]
+    },
+    {
+      "userId": 4,
+      "detail": [
+        {
+          "length": 332,
+          "width": 232,
+          "height": 323,
+          "weight": 1000,
+          "originAddress": {
+            "id": 1,
+            "branchName": "Jakarta Branch 1",
+            "city": "Jakarta Pusat",
+            "province": "DKI Jakarta",
+            "street": "Jl. Ini Nama Jalan Jakarta Origin",
+            "createdAt": "2023-12-04T08:35:32.000Z",
+            "updatedAt": "2023-12-04T08:35:32.000Z"
+          },
+          "destinationAddress": {
+            "city": "Kaur",
+            "province": "Bengkulu",
+            "street": "testette",
+            "receiverName": "testste",
+            "receiverPhone": "081231231312",
+            "updatedAt": "2023-12-21T16:34:12.777Z",
+            "createdAt": "2023-12-21T16:34:12.777Z"
+          },
+          "cost": 45000,
+          "promoUsed": {
+            "id": 1,
+            "promoCode": "PROMO20",
+            "discount": 20,
+            "quota": 999,
+            "expiryDate": "2024-12-14T08:35:32.000Z",
+            "used": 3,
+            "createdAt": "2023-12-04T08:35:32.000Z",
+            "updatedAt": "2023-12-17T11:19:57.842Z"
+          },
+          "paidAmount": 60000,
+          "category": "REG",
+          "addOns": "2",
+          "trackingNumber": "4001REG",
+          "status": "DELIVERED",
+          "review": "2",
+          "updatedAt": "2023-12-21T16:42:48.897Z",
+          "createdAt": "2023-12-21T16:35:24.224Z"
+        },
+        {
+          "length": 12,
+          "width": 23,
+          "height": 32,
+          "weight": 333,
+          "originAddress": {
+            "id": 2,
+            "branchName": "Bandung Branch",
+            "city": "Bandung",
+            "province": "Jawa Barat",
+            "street": "Jl. Ini Nama Jalan Bandung Origin",
+            "createdAt": "2023-12-04T08:35:32.000Z",
+            "updatedAt": "2023-12-04T08:35:32.000Z"
+          },
+          "destinationAddress": {
+            "city": "Kaur",
+            "province": "Bengkulu",
+            "street": "testette",
+            "receiverName": "testste",
+            "receiverPhone": "081231231312",
+            "updatedAt": "2023-12-21T16:34:12.777Z",
+            "createdAt": "2023-12-21T16:34:12.777Z"
+          },
+          "cost": 48000,
+          "promoUsed": null,
+          "paidAmount": 53000,
+          "category": "REG",
+          "addOns": "1",
+          "trackingNumber": "4002REG",
+          "status": "PAID",
+          "review": "",
+          "updatedAt": "2023-12-21T16:35:49.654Z",
+          "createdAt": "2023-12-21T16:35:49.654Z"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "userId": 5,
+      "detail": [],
+      "id": 5
     }
   ]
 }
